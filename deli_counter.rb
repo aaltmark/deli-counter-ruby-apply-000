@@ -21,6 +21,10 @@ def take_a_number
   puts "Order number #{counter}"
 end
 
+take_a_number
+take_a_number
+take_a_number
+
 def now_serving(katz_deli)
   if katz_deli.length > 1
   puts "Currently serving #{katz_deli[0]}."
