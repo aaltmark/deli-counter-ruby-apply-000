@@ -15,10 +15,10 @@ elsif katz_deli.length < 1
 end
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli.push("#{name}")
-  line_size = katz_deli.count
-  puts "Welcome, #{name}. You are number #{line_size} in line."
+def take_a_number
+  counter = 1
+  counter += 1
+  puts "Order number #{counter}"
 end
 
 def now_serving(katz_deli)
