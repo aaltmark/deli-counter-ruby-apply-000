@@ -14,10 +14,11 @@ elsif katz_deli.length < 1
   puts "The line is currently empty."
 end
 end
-counter = 1
+
+$counter = 1
 def take_a_number
-  counter += 1
-  puts "Order number #{counter}"
+  $counter += 1
+  puts "Order number #{$counter}"
 end
 
 take_a_number
