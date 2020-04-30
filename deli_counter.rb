@@ -15,7 +15,7 @@ elsif katz_deli.length < 1
 end
 end
 
-$counter = 1
+$counter = 0
 def take_a_number
   $counter += 1
   puts "Order number #{$counter}"
